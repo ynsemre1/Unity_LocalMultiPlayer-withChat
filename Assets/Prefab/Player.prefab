@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 801311762035009320}
   - component: {fileID: 8960789381256367812}
   - component: {fileID: 8438896621631639224}
-  - component: {fileID: 7446090852337488558}
+  - component: {fileID: 5449764253008027591}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -66,7 +66,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: cebe31f9fcb9946d3a82a6d5ede76771, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -123,8 +123,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 1959204777
-  InScenePlacedSourceGlobalObjectIdHash: 0
+  GlobalObjectIdHash: 4136801988
+  InScenePlacedSourceGlobalObjectIdHash: 4136801988
   AlwaysReplicateAsRoot: 0
   SynchronizeTransform: 1
   ActiveSceneSynchronization: 0
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bde7c97f55255486fa2327827db08c3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &7446090852337488558
+--- !u!114 &5449764253008027591
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -153,7 +153,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4859451665223777298}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e96cb6065543e43c4a752faaa1468eb1, type: 3}
+  m_Script: {fileID: 11500000, guid: df2868252ab5c4d1da357e8f11f1b524, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   UseUnreliableDeltas: 0
@@ -423,7 +423,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 4113
+  m_VersionIndex: 4116
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []

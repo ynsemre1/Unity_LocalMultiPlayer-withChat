@@ -20,6 +20,7 @@ public class PlayerMovement : NetworkBehaviour
     void Update()
     {
         if(!IsOwner) return;
+
         groundedPlayer = controller.isGrounded;
         if (groundedPlayer && playerVelocity.y < 0)
         {
